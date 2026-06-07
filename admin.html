@@ -1274,6 +1274,30 @@ create policy "Admin_manage_campaigns" on manolya_campaigns for all to authentic
         </div>
       </div>
 
+<!-- INTEGRATIONS TAB -->
+      <div id="tabIntegrations" class="tab-content" style="display: none;">
+        <div class="card" style="padding: 20px;">
+          <h3>Meta (Facebook/Instagram) Bağlantısı</h3>
+          <p>Instagram hesabınızı API'ye bağlamak için aşağıdaki butonu kullanın.</p>
+          
+          <div style="margin-bottom: 20px;">
+            <label>App ID (Client ID):</label>
+            <input type="text" id="fbClientId" placeholder="15 haneli App ID girin" style="padding: 10px; width: 300px; border: 1px solid #ddd; border-radius: 8px;">
+          </div>
+          
+          <button onclick="startFbLogin()" class="btn-primary" style="background: #1877F2; border:none; padding: 12px 20px; color: white; border-radius: 8px; cursor:pointer;">
+            <i class="fa-brands fa-facebook"></i> Facebook ile Giriş Yap
+          </button>
+
+          <div id="fbLoginResult" style="margin-top: 20px; padding: 15px; border-radius: 8px; background: #f9f9f9; display:none; word-break: break-all;">
+            <strong>Bağlantı Başarılı!</strong><br>
+            Sayfa ID: <span id="fbPageId"></span><br>
+            Erişim Jetonu (Vercel'e eklenecek META_ACCESS_TOKEN): <br>
+            <textarea id="fbAccessToken" rows="4" style="width:100%; margin-top:10px; font-size:11px;" readonly></textarea>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 
@@ -1468,6 +1492,12 @@ create policy "Admin_manage_campaigns" on manolya_campaigns for all to authentic
         portalSubText.innerText = "Gelen siparişler. Durumu güncelleyince veritabanına anında yazılır.";
         renderOrdersShell();
         fetchOrders();
+      } else if (tabName === "integrations") {
+        document.getElementById("tabIntegrations").style.display = "block";
+        document.getElementById("menuIntegrations").classList.add("active");
+        document.getElementById("btnAddProductBtn").style.display = "none";
+        statsGrid.style.display = "none";
+        portalSubText.innerText = "Sistemi dış araçlarla (Meta vb.) entegre edin.";
       } else if (tabName === "memories") {
         let memTab = document.getElementById("tabMemories");
         if (!memTab) {
