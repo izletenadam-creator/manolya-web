@@ -77,7 +77,7 @@ Amacın satışı bağlamak, müşteriye harika hissettirmek ve gerektiğinde d�
 `;
 
   try {
-    const response = await fetch(\`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=\${GEMINI_API_KEY}\`, {
+    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -113,7 +113,7 @@ async function sendMetaReply(recipientId, text) {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': \`Bearer \${META_ACCESS_TOKEN}\`
+        'Authorization': `Bearer ${META_ACCESS_TOKEN}`
       },
       body: JSON.stringify({
         recipient: { id: recipientId },
