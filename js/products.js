@@ -3,7 +3,7 @@ const PRODUCT_DATA = [
     "key": "renkli-gul-serisi-3",
     "name": "Renkli Gül Serisi 3",
     "link": "https://www.cicekfilosu.com/cicek/renkli-gul-serisi-3.html",
-    "image": "images/products/renkli-gul-serisi-3.jpg",
+    "image": "images/products/vip/vip_red_roses.png",
     "original_price": "",
     "price": "2.676,00 TL",
     "categories": [
@@ -17,7 +17,16 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_red_roses.png",
+    "original_price": "4.500,00 TL",
+    "price": "3.850,00 TL",
+    "categories": ["gelin-arabasi", "vip"]
+  },
+  {
+    "key": "gelin-arabasi-klasik",
+    "name": "Klasik Gelin Arabası Süslemesi",
+    "link": "#",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
@@ -26,12 +35,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-luks-orkide",
     "name": "Lüks Orkide Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_white_orchid.png",
     "original_price": "8.000,00 TL",
     "price": "6.500,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "vazoda-7-gul-ve-ayicik",
@@ -50,21 +57,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "saray-gulu",
@@ -85,21 +81,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "beyaz-orkide-ve-beyaz-guller",
@@ -122,21 +107,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "kirlardan-gelen-guzellik",
@@ -161,21 +135,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "kir-cicegi-ve-gul",
@@ -192,21 +155,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "bebek-dogum-aranjman-serisi-1-",
@@ -223,21 +175,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "kutu-dolusu-mutluluk-guller",
@@ -256,21 +197,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "renkli-gul-serisi-1",
@@ -288,21 +218,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "yagmur-yureklim",
@@ -320,21 +239,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "rengarenk-aranjman",
@@ -355,21 +263,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "cikolata-sepeti",
@@ -388,21 +285,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "sansevieria-serisi-turuncu",
@@ -420,21 +306,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "cardak-gul-serisi-1",
@@ -452,21 +327,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "gul-karam",
@@ -488,21 +352,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "gulumse-sevgilim-11-beyaz-gul",
@@ -522,21 +375,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "hosgeldin-prens",
@@ -555,21 +397,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "vazoda-lilyumlar",
@@ -591,21 +422,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "bahar-geldi-aranjmani",
@@ -630,21 +450,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "mor-dendrobium-orkide",
@@ -667,21 +476,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "-butik-gul-serisi-1-",
@@ -698,21 +496,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "tasarim-buket-serisi-4",
@@ -731,21 +518,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "son-ask",
@@ -773,21 +549,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "antorium-saksi-cicegi",
@@ -807,21 +572,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "saksi-cicegi-spatifilyum",
@@ -841,21 +595,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "lilyum-ruyasi",
@@ -874,21 +617,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "9-kirmizi-gul",
@@ -909,21 +641,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "orkide-ve-renkli-guller",
@@ -940,21 +661,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "vazgecilmezimsin",
@@ -971,21 +681,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "kutuda-beyaz-gul-ve-orkide",
@@ -1008,21 +707,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "sari-ve-beyaz-papatyalar",
@@ -1042,21 +730,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "vazoda-9-kirmizi-gul",
@@ -1075,21 +752,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "aranjmanli-cift-dalli-mor-orkide",
@@ -1107,21 +773,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "41-kirmizi-gul",
@@ -1138,21 +793,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "benjamin-cicegi",
@@ -1171,21 +815,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "tek-dalli-beyaz-orkide",
@@ -1206,21 +839,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "fanusta-papatyalar",
@@ -1240,21 +862,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "guzmanya-saksi-cicegi",
@@ -1272,21 +883,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "mavi-orkide",
@@ -1304,21 +904,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "mutlu-lilyumlar",
@@ -1337,21 +926,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "2li-yuka-saksi-cicegi",
@@ -1369,21 +947,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "pembe-ve-beyaz-papatyalar",
@@ -1402,21 +969,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "lilyum-aranjman-serisi-3-",
@@ -1436,21 +992,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "papatya-ve-guller",
@@ -1471,21 +1016,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "ciftli-orkide-ve-kirmizi-guller",
@@ -1507,21 +1041,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "ozel-buket-serisi-16",
@@ -1539,21 +1062,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "rengarenk-sevgilim",
@@ -1573,21 +1085,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "ozel-butik-aranjman",
@@ -1607,21 +1108,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "kutuda-25-gul-kirmizi",
@@ -1640,21 +1130,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "lisyantus-serisi-4",
@@ -1673,21 +1152,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "vazoda-51-kirmizi-gul",
@@ -1704,21 +1172,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "kutuda-papatya-ruyasi",
@@ -1740,21 +1197,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "kutu-kutu-mutluluk-serisi-3",
@@ -1773,21 +1219,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "ozel-orkide-serisi-5",
@@ -1804,21 +1239,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "kutuda-harf-gul-",
@@ -1836,21 +1260,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "tatli-ruya",
@@ -1868,21 +1281,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "sevgi-sozcukleri-15-beyaz-gul",
@@ -1900,21 +1302,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "tasarim-buket-serisi-3",
@@ -1936,21 +1327,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "rengarenk-papatyalar",
@@ -1968,21 +1348,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "beyazin-asaleti",
@@ -2001,21 +1370,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "cift-dalli-mor-orkide",
@@ -2036,21 +1394,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "hosgeldin-prenses",
@@ -2068,21 +1415,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "3-dalli-orkide",
@@ -2099,21 +1435,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "asklarin-en-guzeli-11-kirmizi-gul",
@@ -2131,21 +1456,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "ciftli-orkide-ve-beyaz-guller",
@@ -2165,21 +1479,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "zarif-kutu",
@@ -2203,21 +1506,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "baharin-mujdecisi",
@@ -2237,21 +1529,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "cift-dalli-beyaz-orkide",
@@ -2271,21 +1552,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "sonsuz-sevgi",
@@ -2304,21 +1574,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "sans-bambusu",
@@ -2335,21 +1594,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "beyaz-kir-cicegi-buketi",
@@ -2366,21 +1614,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "sari-papatya-buket",
@@ -2398,21 +1635,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "ask-ve-masumiyet",
@@ -2432,21 +1658,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "masumiyet-dunyasi",
@@ -2464,21 +1679,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "ask-kokulu",
@@ -2496,21 +1700,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "asksin-sen-21-kirmizi-gul",
@@ -2528,21 +1721,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "ayakli-dugun-acilis-sepeti",
@@ -2559,21 +1741,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "acilis-dugun-nikah-sepeti",
@@ -2590,21 +1761,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "sari-beyaz-gerbera-dugun-cicegi",
@@ -2621,21 +1781,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "ayakli-dugun-sepeti",
@@ -2652,21 +1801,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "dugun-acilis-nikah-toreni-icin-celenk",
@@ -2683,21 +1821,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "pembe-beyaz-nikah-cicegi",
@@ -2714,21 +1841,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "ayakli-celenk-serisi-4",
@@ -2745,21 +1861,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "turuncu-acilis-dugun-nikah-sepeti",
@@ -2776,21 +1881,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "duru-bir-sevgi",
@@ -2807,21 +1901,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "pembe-guzellik",
@@ -2841,21 +1924,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "ozel-orkide-serisi-16",
@@ -2872,21 +1944,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "3-gobekli-kirmizi-celenk",
@@ -2903,21 +1964,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "3-gobekli-ayakli-celenk",
@@ -2934,21 +1984,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "kat-kat-mutluluk-kirmizi-beyaz-gerberalar",
@@ -2965,21 +2004,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "3-gobekli-beyaz-celenk",
@@ -2996,21 +2024,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "areka-saksi-cicegi",
@@ -3028,21 +2045,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "3lu-yuka-saksi-cicegi",
@@ -3059,21 +2065,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "3lu-massengena-saksi-cicegi",
@@ -3090,21 +2085,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "4lu-yuka-saksi-cicegi",
@@ -3121,21 +2105,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "pano-cicek-serisi-1-",
@@ -3152,21 +2125,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "ayakli-celenk-serisi-7",
@@ -3183,21 +2145,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "kirmizi-ve-beyaz-ciceklerden-ferforje",
@@ -3215,21 +2166,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "kirmizi-beyaz-acilis-dugun-nikah-sepeti",
@@ -3246,21 +2186,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "cam-vazoda-beyaz-lilyumlar",
@@ -3278,21 +2207,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "mor-ve-beyaz-orkide",
@@ -3310,21 +2228,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "tasarim-buket-serisi-1",
@@ -3345,21 +2252,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "buyuk-orkide-aranjmani",
@@ -3378,21 +2274,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "kutuda-bas-harf",
@@ -3410,21 +2295,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "vazoda-11-kirmizi-gul",
@@ -3441,21 +2315,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "tutkulu-ask-25-kirmizi-gul",
@@ -3474,21 +2337,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "ask-dunyasi",
@@ -3506,21 +2358,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "vazoda-lilyum-ve-gul",
@@ -3537,21 +2378,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "kipkirmizi-ask-15-kirmizi-gul",
@@ -3568,21 +2398,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "askinizi-anlatsin",
@@ -3599,21 +2418,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "tasarim-buket-serisi-2",
@@ -3631,21 +2439,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "seviyorum-seni",
@@ -3662,21 +2459,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "kirmizinin-cazibesi",
@@ -3694,21 +2480,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "viresia",
@@ -3726,21 +2501,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "baharin-tum-renkleri",
@@ -3759,21 +2523,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "cam-vazoda-11-gul",
@@ -3791,21 +2544,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "bahar-esintisi",
@@ -3822,21 +2564,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "beyaz-dusler",
@@ -3853,21 +2584,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "acelya-saksi-cicegi",
@@ -3886,21 +2606,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "yasemin-saksi-cicegi",
@@ -3918,21 +2627,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "ilkbaharin-guzelligi",
@@ -3949,21 +2647,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "cenazeye-celenk",
@@ -3980,21 +2667,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "beyaz-gerberalarla-cenaze-celengi",
@@ -4011,21 +2687,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "kirmizi-gerberali-cenaze-celengi",
@@ -4042,21 +2707,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "cenaze-celenk",
@@ -4073,21 +2727,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "kirmizi---beyaz-cenaze-celengi",
@@ -4104,21 +2747,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "cenaze-celenk-serisi-2",
@@ -4135,21 +2767,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "turuncu-beyaz-cenaze-celengi",
@@ -4166,21 +2787,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "cenaze-celengi",
@@ -4197,21 +2807,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "celenk-serisi-1",
@@ -4228,21 +2827,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "celenk-serisi-5",
@@ -4259,21 +2847,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "cenazeye-yapay-celenk",
@@ -4290,21 +2867,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "beyaz-yapay-cenaze-celengi",
@@ -4321,21 +2887,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "mozole-celengi",
@@ -4352,21 +2907,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "pano-cicek-serisi-2",
@@ -4383,21 +2927,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "cenaze-celenk-serisi-1",
@@ -4414,21 +2947,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "kirmizili-gerberali-pano-cicek",
@@ -4445,21 +2967,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "mozole-tabut-cicegi",
@@ -4476,21 +2987,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "pano-cicek",
@@ -4507,21 +3007,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "beyaz-cenaze-celengi",
@@ -4538,21 +3027,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "tek-renk-beyaz-gerberali-cenaze-celengi",
@@ -4569,21 +3047,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "kirmizi-cenaze-celengi",
@@ -4600,21 +3067,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "pembe-beyaz-cenaze-celengi",
@@ -4631,21 +3087,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "kirmizi-yapay-cenaze-celengi",
@@ -4662,21 +3107,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "kirmizi-beyaz-yapay-celenk",
@@ -4693,21 +3127,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "baharim-sensin",
@@ -4726,21 +3149,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "tekli-orkide-ve-kirmizi-guller",
@@ -4760,21 +3172,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "gul-bahcem",
@@ -4791,21 +3192,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "oyku",
@@ -4823,21 +3213,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "ozel-aranjman-serisi-3",
@@ -4855,21 +3234,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "ozel-orkide-serisi-11",
@@ -4886,21 +3254,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "siyah-kutuda-renkli-guller",
@@ -4920,21 +3277,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "ozel-buket-serisi-2",
@@ -4951,21 +3297,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "ozel-orkide-serisi-7",
@@ -4983,21 +3318,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "ozel-buket-serisi-7",
@@ -5014,21 +3338,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "vazoda-15-kirmizi-gul",
@@ -5045,21 +3358,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "vazoda-25-kirmizi-gul",
@@ -5076,21 +3378,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "kazablanka-ve-gul",
@@ -5110,21 +3401,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "dendrobium-orkide",
@@ -5141,21 +3421,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "Bougetto-Orkide-Aranjman-Serisi-1",
@@ -5173,21 +3442,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "gul-ve-lilyumun-ihtisami",
@@ -5204,21 +3462,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "kare-kutuda-harf",
@@ -5235,21 +3482,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "aycicegi-serisi-2",
@@ -5266,21 +3502,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "-35-pembe-gul-",
@@ -5297,21 +3522,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "ozel-buket-serisi-13",
@@ -5328,21 +3542,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "premium-orkide-grubu-",
@@ -5360,21 +3563,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "ozel-orkide-serisi-8",
@@ -5393,21 +3585,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "tasarim-buket-serisi-5",
@@ -5425,21 +3606,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "lisyantus-serisi-3",
@@ -5456,21 +3626,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "beyaz-dendrobium-orkide",
@@ -5487,21 +3646,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "renkli-gul-serisi-5",
@@ -5518,21 +3666,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "buket-serisi-1",
@@ -5549,21 +3686,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "lilyum-serisi-2 ",
@@ -5581,21 +3707,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "pembe-ve-beyaz",
@@ -5613,21 +3728,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "kalbimin-sahibine",
@@ -5645,21 +3749,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "vazoda-gul-ve-lilyum",
@@ -5676,21 +3769,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "ozel-orkide-serisi-12",
@@ -5707,21 +3789,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "bu-kalp-sadece-sana-ait",
@@ -5739,21 +3810,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "lilyum-buketi",
@@ -5771,21 +3831,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "askimsin",
@@ -5802,21 +3851,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "hayat-opucugu",
@@ -5833,21 +3871,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "askimizin-cicegi-lilyumlar",
@@ -5865,21 +3892,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "ask-bakislim",
@@ -5897,21 +3913,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "ozel-buket-serisi-1",
@@ -5929,21 +3934,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "hayatimsin-sen",
@@ -5960,21 +3954,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "tatli-mevsim",
@@ -5991,21 +3974,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "kutu-kutu-mutluluk-serisi-15",
@@ -6024,21 +3996,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "askim-seninle",
@@ -6055,21 +4016,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "kutuda-16-gul",
@@ -6086,21 +4036,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "prensesler-gibi",
@@ -6117,21 +4056,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "minik-sercem",
@@ -6150,21 +4078,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "mis-beyaz",
@@ -6181,21 +4098,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "omrume",
@@ -6212,21 +4118,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "kutuda-kirmizi-gul-ve-orkide",
@@ -6244,21 +4139,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "tatli-kirmizi",
@@ -6275,21 +4159,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "kutuda-kirmizi-gul-ve-echeveria",
@@ -6306,21 +4179,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "kalben",
@@ -6338,21 +4200,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "her-zaman-sen",
@@ -6370,21 +4221,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "mor-orkide-ve-beyaz-guller",
@@ -6401,21 +4241,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "turuncu-taba-orkide",
@@ -6433,21 +4262,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "sen-baskasin-pembe-orkide",
@@ -6465,21 +4283,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "ozel-orkide-serisi-4",
@@ -6496,21 +4303,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "8-dalli-mor-orkide",
@@ -6527,21 +4323,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "hayat-seninle-guzel",
@@ -6559,21 +4344,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "-ozel-orkide-serisi-3",
@@ -6590,21 +4364,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "6-dal-beyaz-orkide",
@@ -6621,21 +4384,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "ay-peri",
@@ -6652,21 +4404,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "butik-mavi-orkide",
@@ -6683,21 +4424,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "ozel-buket-serisi-5",
@@ -6716,21 +4446,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "rengarenk-gerberalar",
@@ -6747,21 +4466,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "gul-papatyam",
@@ -6778,21 +4486,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "bir-demet-masumiyet",
@@ -6810,21 +4507,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "ozel-buket-serisi-3",
@@ -6841,21 +4527,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "sevdigime-papatyalar",
@@ -6873,21 +4548,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "guzel-gozlume",
@@ -6905,21 +4569,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "lisyantus-serisi-1",
@@ -6936,21 +4589,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "seramik-vazoda-cicek-topu",
@@ -6967,21 +4609,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "kasimpati-buketi",
@@ -6998,21 +4629,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "sevgimiz-gibi-masum",
@@ -7030,21 +4650,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "fanusta-kir-cicekleri",
@@ -7062,21 +4671,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "butik-aranjman-serisi-1",
@@ -7093,21 +4691,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "tek-askimsin",
@@ -7124,21 +4711,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "lisyantus-serisi-2",
@@ -7155,21 +4731,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "kutu-kutu-mutluluk-serisi-1",
@@ -7186,21 +4751,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "lilyum-aranjman-serisi-1",
@@ -7217,21 +4771,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "pembe-ciceklerden-ayakli-ferforje",
@@ -7248,21 +4791,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "beyaz-papatyam-sensin",
@@ -7280,21 +4812,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "renkli-gerberalardan-ferforje-aranjman",
@@ -7311,21 +4832,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "lilyum-ve-gul-buketi",
@@ -7342,21 +4852,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "papatya-buketi",
@@ -7373,21 +4872,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "renkli-papatyalardan-buket",
@@ -7404,21 +4892,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "renkli-gul-serisi-4",
@@ -7435,21 +4912,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "25-beyaz-gul",
@@ -7466,21 +4932,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "butik-aranjman-serisi-4",
@@ -7498,21 +4953,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "2li-marginata-saksi-cicegi",
@@ -7529,21 +4973,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "2li-seflera-saksi-cicegi",
@@ -7560,21 +4993,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "kaucuk-saksi-bitkisi",
@@ -7591,21 +5013,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "benjamin-saksi-cicegi",
@@ -7622,21 +5033,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "difenbahya-saksi-cicegi",
@@ -7653,21 +5053,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "2li-massengena-saksi-cicegi",
@@ -7684,21 +5073,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "3lu-dracena-marginata-",
@@ -7715,21 +5093,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "4-dalli-beyaz-dendrobium-orkide",
@@ -7746,21 +5113,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "saksi-cicegi-bonsai",
@@ -7777,21 +5133,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "pachira-agac-serisi-1",
@@ -7808,21 +5153,10 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   },
   {
     "key": "guzmanya-bitki-serisi-1",
@@ -7839,20 +5173,9 @@ const PRODUCT_DATA = [
     "key": "gelin-arabasi-klasik",
     "name": "Klasik Gelin Arabası Süslemesi",
     "link": "#",
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop",
+    "image": "images/products/vip/vip_bridal_car.png",
     "original_price": "4.500,00 TL",
     "price": "3.850,00 TL",
     "categories": ["gelin-arabasi", "vip"]
-  },
-  {
-    "key": "gelin-arabasi-luks-orkide",
-    "name": "Lüks Orkide Gelin Arabası Süslemesi",
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop",
-    "original_price": "8.000,00 TL",
-    "price": "6.500,00 TL",
-    "categories": ["gelin-arabasi", "vip"]
-  }
-]
   }
 ];
