@@ -286,9 +286,15 @@
 
     <div class="container hero-content">
       <div class="hero-text">
-        <div class="hero-badge">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          Google'da 5.0 Puan — 23 Değerlendirme
+        <div class="hero-badges-wrapper">
+          <a href="https://share.google/evcbLfvfVn3V5uIO6" target="_blank" rel="noopener noreferrer" class="hero-badge google">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <span id="dynamicGoogleRating">Google'da 5.0 Puan — 23 Değerlendirme</span>
+          </a>
+          <a href="https://www.instagram.com/manolya_cicekcilik43/" target="_blank" rel="noopener noreferrer" class="hero-badge instagram">
+            <i class="fa-brands fa-instagram"></i>
+            Instagram'da Takip Et
+          </a>
         </div>
 
         <h1>Simav'ın <em>En Özel</em> Çiçekçisi</h1>
@@ -904,6 +910,7 @@
         <div class="product-modal-image">
           <img id="modalProductImage" src="" alt="">
           <span class="product-badge" id="modalProductBadge" style="display: none;">%15 İndirim</span>
+          <div class="product-modal-gallery" id="modalProductGallery" style="display: none; margin-top: 15px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;"></div>
         </div>
         <div class="product-modal-details">
           <span class="product-modal-category" id="modalProductCategory">Kategori</span>
@@ -1076,10 +1083,17 @@
           </div>
           <div style="background: #f9f9f9; padding: 12px 15px; border-radius: 8px; margin-bottom: 15px; border: 1px solid #ddd;">
             <label style="display: flex; align-items: center; gap: 10px; cursor: pointer; margin:0;">
-              <input type="radio" name="paymentMethod" value="bank_transfer">
+              <input type="radio" name="paymentMethod" value="bank_transfer" onchange="document.getElementById('ibanBox').style.display='block'">
               <strong>Havale / EFT</strong>
-              <span style="margin-left:auto; color:#888; font-size:0.85rem;">Onayda IBAN paylaşılacak</span>
+              <span style="margin-left:auto; color:#888; font-size:0.85rem;">Sipariş öncesi transfer</span>
             </label>
+            <div id="ibanBox" style="display:none; margin-top:10px; background:#e8f5e9; border:1px solid #a5d6a7; padding:10px 14px; border-radius:6px;">
+              <div style="font-size:0.78rem; color:#555; margin-bottom:6px;">Ziraat Bankası — Mehmet Yüksek</div>
+              <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+                <code style="font-size:0.98rem; letter-spacing:1px; color:#1b5e20; font-weight:600;">TR04 0001 2009 5310 0009 0047 03</code>
+                <button type="button" id="ibanCopyBtn" onclick="navigator.clipboard.writeText('TR040001200953100009004703').then(()=>{this.textContent='✓ Kopyalandı';setTimeout(()=>this.textContent='Kopyala',2000)})" style="background:#2d6a4f;color:white;border:none;padding:4px 12px;border-radius:4px;font-size:0.8rem;cursor:pointer;">Kopyala</button>
+              </div>
+            </div>
           </div>
           <div style="background:#fff8e1; border:1px solid #ffe0a3; color:#7a5500; padding:10px 14px; border-radius:8px; margin-bottom:15px; font-size:0.88rem;">
             <i class="fa-solid fa-circle-info"></i> Çevrimiçi kart ile ödeme yakında aktif olacak. Şu an siparişiniz alındıktan sonra teyit için sizi arayacağız.
