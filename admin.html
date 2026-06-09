@@ -1937,27 +1937,49 @@ create policy "Admin_manage_campaigns" on manolya_campaigns for all to authentic
         
         const categories = Array.from(document.querySelectorAll("input[name='categories']:checked")).map(cb => cb.value);
 
+        // Resim sıkıştırma: HEIC/PNG/WebP → JPEG, max 1200px, %80 kalite
+        const compressImage = (file) => new Promise((resolve) => {
+          const img = new Image();
+          const reader = new FileReader();
+          reader.onload = (e) => {
+            img.onload = () => {
+              const MAX = 1200;
+              let w = img.width, h = img.height;
+              if (w > MAX) { h = Math.round(h * MAX / w); w = MAX; }
+              if (h > MAX) { w = Math.round(w * MAX / h); h = MAX; }
+              const canvas = document.createElement('canvas');
+              canvas.width = w; canvas.height = h;
+              canvas.getContext('2d').drawImage(img, 0, 0, w, h);
+              canvas.toBlob((blob) => resolve(blob || file), 'image/jpeg', 0.82);
+            };
+            img.onerror = () => resolve(file);
+            img.src = e.target.result;
+          };
+          reader.onerror = () => resolve(file);
+          reader.readAsDataURL(file);
+        });
+
         // Upload Helper
         const uploadFile = async (fileInput, index, valueId) => {
           let currentVal = document.getElementById(valueId).value.trim();
-          
+
           if (fileInput.files && fileInput.files[index]) {
             const file = fileInput.files[index];
-            const fileExt = file.name.split('.').pop();
-            const fileName = `${Date.now()}-${Math.random().toString(36).substring(7)}.${fileExt}`;
-            
+            const compressed = await compressImage(file);
+            const fileName = `${Date.now()}-${Math.random().toString(36).substring(7)}.jpg`;
+
             const { error: uploadError } = await supabaseClient
               .storage
               .from('product-images')
-              .upload(fileName, file);
-              
+              .upload(fileName, compressed, { contentType: 'image/jpeg' });
+
             if (uploadError) throw uploadError;
 
             const { data } = supabaseClient
               .storage
               .from('product-images')
               .getPublicUrl(fileName);
-              
+
             return data.publicUrl;
           }
           return currentVal;

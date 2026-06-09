@@ -345,10 +345,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const filterAndRender = () => {
       // 1. Filter by category and search query
       filteredProducts = activeProducts.filter(prod => {
-        const matchesCategory = currentCategory === 'all' || prod.categories.includes(currentCategory);
-        const matchesSearch = searchQuery === '' || 
-          prod.name.toLowerCase().includes(searchQuery) || 
-          prod.categories.some(cat => cat.toLowerCase().includes(searchQuery));
+        const cats = Array.isArray(prod.categories) ? prod.categories : [];
+        const matchesCategory = currentCategory === 'all' || cats.includes(currentCategory);
+        const matchesSearch = searchQuery === '' ||
+          prod.name.toLowerCase().includes(searchQuery) ||
+          cats.some(cat => cat.toLowerCase().includes(searchQuery));
         return matchesCategory && matchesSearch;
       });
 
@@ -439,7 +440,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const fetchLiveProducts = async () => {
       try {
-        const response = await fetch(`${SB_URL}/rest/v1/manolya_products?select=*&order=id.asc`, {
+        const response = await fetch(`${SB_URL}/rest/v1/manolya_products?select=*&order=id.desc`, {
           headers: {
             "apikey": SB_KEY,
             "Authorization": `Bearer ${SB_KEY}`
