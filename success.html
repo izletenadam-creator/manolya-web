@@ -17,20 +17,40 @@
   <div class="icon">🌸</div>
   <h1>Teşekkür Ederiz!</h1>
   <p>Siparişiniz başarıyla alındı. Mağazamız sipariş onayı için en kısa sürede sizi arayacaktır.</p>
-  <p style="font-size:1rem; color:#888; margin-bottom: 24px;">WhatsApp bildirimi gönderildi. Açılmadıysa aşağıdan tekrar gönderebilirsiniz.</p>
+
+  <!-- Havale seçildiyse IBAN kutusu -->
+  <div id="ibanSection" style="display:none; max-width:420px; margin:0 auto 28px; background:#e8f5e9; border:1px solid #a5d6a7; border-radius:10px; padding:18px 20px; text-align:left;">
+    <p style="font-size:1rem; color:#1b5e20; font-weight:600; margin-bottom:8px;">Havale / EFT Bilgileri</p>
+    <p style="font-size:0.9rem; color:#555; margin-bottom:12px;">Siparişinizi onaylamak için aşağıdaki hesaba transfer yapınız.</p>
+    <div style="font-size:0.82rem; color:#777; margin-bottom:4px;">Ziraat Bankası — Mehmet Yüksek</div>
+    <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
+      <code style="font-size:1.05rem; letter-spacing:1px; color:#1b5e20; font-weight:700;">TR04 0001 2009 5310 0009 0047 03</code>
+      <button type="button" onclick="navigator.clipboard.writeText('TR040001200953100009004703').then(()=>{this.textContent='✓ Kopyalandı';setTimeout(()=>this.textContent='Kopyala',2000)})" style="background:#2d6a4f;color:white;border:none;padding:5px 14px;border-radius:5px;font-size:0.82rem;cursor:pointer;">Kopyala</button>
+    </div>
+    <p style="font-size:0.82rem; color:#888; margin-top:10px; margin-bottom:0;">Transfer açıklamasına adınızı yazmayı unutmayın.</p>
+  </div>
+
+  <p id="waHint" style="font-size:1rem; color:#888; margin-bottom: 24px; display:none;">WhatsApp bildirimi açılmadıysa aşağıdan gönderebilirsiniz.</p>
   <a id="waNotifyBtn" href="https://wa.me/905405133913" target="_blank" class="btn" style="background:#25d366; margin-bottom: 16px; display:block; max-width:300px; margin-left:auto; margin-right:auto;">📲 WhatsApp ile Bildir</a>
   <a href="/" class="btn">Anasayfaya Dön</a>
   <script>
-    // Sipariş detaylarını localStorage'dan al (varsa)
     const pendingOrder = localStorage.getItem('manolya_pending_order');
     if (pendingOrder) {
       try {
         const o = JSON.parse(pendingOrder);
+
+        // Havale seçilmişse IBAN kutusunu göster
+        if (o.paymentMethod === 'bank_transfer') {
+          document.getElementById('ibanSection').style.display = 'block';
+        }
+
         const itemsList = (o.items || []).map(i => `• ${i.name} x${i.quantity}`).join('\n');
+        const payLabel = o.paymentMethod === 'bank_transfer' ? 'Havale/EFT' : o.paymentMethod === 'cash_on_delivery' ? 'Kapıda Nakit' : o.paymentMethod;
         const msg = encodeURIComponent(
-          `🌸 YENİ SİPARİŞ!\n👤 Ad: ${o.name}\n📞 Tel: ${o.phone}\n🏠 Adres: ${o.address}\n💬 Not: ${o.note || '-'}\n💳 Ödeme: ${o.paymentMethod}\n💰 Toplam: ${o.total} TL\n\n📦 Ürünler:\n${itemsList}`
+          `🌸 YENİ SİPARİŞ!\n👤 Ad: ${o.name}\n📞 Tel: ${o.phone}\n🏠 Adres: ${o.address}\n💬 Not: ${o.note || '-'}\n💳 Ödeme: ${payLabel}\n💰 Toplam: ${o.total} TL\n\n📦 Ürünler:\n${itemsList}`
         );
         document.getElementById('waNotifyBtn').href = `https://wa.me/905405133913?text=${msg}`;
+        document.getElementById('waHint').style.display = 'block';
         localStorage.removeItem('manolya_pending_order');
       } catch(e) {}
     }
