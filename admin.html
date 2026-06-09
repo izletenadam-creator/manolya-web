@@ -367,14 +367,49 @@
       }
     }
 
+    /* Responsive tablolar — tüm ekranlarda */
+    .table-responsive {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
     @media (max-width: 576px) {
       .sidebar {
         display: none;
+        z-index: 9000;
+        width: 260px;
+        transform: translateX(0);
+        box-shadow: 4px 0 24px rgba(0,0,0,0.18);
       }
+      .sidebar.mobile-open {
+        display: flex !important;
+      }
+      .sidebar.mobile-open .sidebar-brand span,
+      .sidebar.mobile-open .sidebar-menu span,
+      .sidebar.mobile-open .sidebar-footer {
+        display: initial !important;
+      }
+      .sidebar-overlay {
+        display: none;
+        position: fixed;
+        inset: 0;
+        background: rgba(0,0,0,0.45);
+        z-index: 8999;
+        cursor: pointer;
+      }
+      .sidebar-overlay.active { display: block; }
+      .mobile-menu-btn { display: flex !important; }
       .main-content {
         margin-left: 0;
-        padding: 20px;
+        padding: 16px;
       }
+      /* Tablolar scroll edilebilir */
+      .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+      /* Sipariş tablosunda fazla kolon gizle */
+      .orders-table th:nth-child(2),
+      .orders-table td:nth-child(2),
+      .orders-table th:nth-child(5),
+      .orders-table td:nth-child(5) { display: none; }
     }
 
     /* Header */
@@ -968,8 +1003,10 @@
 
   <!-- ==================== ADMIN DASHBOARD ==================== -->
   <div id="adminDashboard">
+    <!-- Mobile Sidebar Overlay -->
+    <div class="sidebar-overlay" id="sidebarOverlay" onclick="closeMobileSidebar()"></div>
     <!-- Sidebar -->
-    <div class="sidebar">
+    <div class="sidebar" id="adminSidebar">
       <div class="sidebar-brand">Manolya <span>Çiçek</span></div>
       <ul class="sidebar-menu">
         <li class="active" id="menuProducts"><a onclick="switchTab('products')"><i class="fa-solid fa-seedling"></i> <span>Çiçekler</span></a></li>
@@ -992,9 +1029,12 @@
       
       <!-- HEADER -->
       <header>
-        <div>
-          <h1>Yönetici Portalı</h1>
-          <p id="portalSubText">Mehmet abi, Manolya Çiçekçilik kataloğunu ve fiyatlarını buradan canlı yönetebilirsin.</p>
+        <div style="display:flex; align-items:center; gap:12px;">
+          <button class="mobile-menu-btn" onclick="toggleMobileSidebar()" style="display:none; background:#2d6a4f; color:white; border:none; border-radius:8px; width:40px; height:40px; font-size:1.2rem; cursor:pointer; flex-shrink:0;">☰</button>
+          <div>
+            <h1>Yönetici Portalı</h1>
+            <p id="portalSubText">Mehmet abi, Manolya Çiçekçilik kataloğunu ve fiyatlarını buradan canlı yönetebilirsin.</p>
+          </div>
         </div>
         <button class="btn-primary" id="btnAddProductBtn" onclick="openAddModal()"><i class="fa-solid fa-plus"></i> Yeni Çiçek Ekle</button>
       </header>
@@ -1521,8 +1561,21 @@ create policy "Admin_manage_campaigns" on manolya_campaigns for all to authentic
       block.style.display = block.style.display === "block" ? "none" : "block";
     }
 
+    // Mobil Sidebar Toggle
+    function toggleMobileSidebar() {
+      const sidebar = document.getElementById('adminSidebar');
+      const overlay = document.getElementById('sidebarOverlay');
+      sidebar.classList.toggle('mobile-open');
+      overlay.classList.toggle('active');
+    }
+    function closeMobileSidebar() {
+      document.getElementById('adminSidebar').classList.remove('mobile-open');
+      document.getElementById('sidebarOverlay').classList.remove('active');
+    }
+
     // Switch Tabs
     function switchTab(tabName) {
+      closeMobileSidebar(); // Mobilde tab değiştirince sidebar'ı kapat
       document.querySelectorAll(".tab-content").forEach(el => el.style.display = "none");
       document.querySelectorAll(".sidebar-menu li").forEach(el => el.classList.remove("active"));
       
@@ -2122,7 +2175,7 @@ create policy "Admin_manage_campaigns" on manolya_campaigns for all to authentic
             </div>
           </div>
           <div class="table-responsive">
-            <table class="table" style="width:100%;">
+            <table class="table orders-table" style="width:100%; min-width:600px;">
               <thead>
                 <tr>
                   <th>#</th>
