@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Siparişiniz Alındı - Manolya Çiçekçilik</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    body { text-align: center; padding: 50px; font-family: 'Inter', sans-serif; background-color: #fcfcfc; }
+    h1 { color: #2d6a4f; font-size: 2.5rem; margin-bottom: 20px; }
+    p { font-size: 1.2rem; color: #555; margin-bottom: 30px; }
+    .btn { display: inline-block; padding: 15px 30px; background-color: #2d6a4f; color: white; text-decoration: none; border-radius: 8px; font-weight: bold; }
+    .icon { font-size: 4rem; color: #2d6a4f; margin-bottom: 20px; }
+  </style>
+</head>
+<body>
+  <div class="icon">🌸</div>
+  <h1>Teşekkür Ederiz!</h1>
+  <p>Siparişiniz başarıyla alındı. Mağazamız sipariş onayı için en kısa sürede sizi arayacaktır.</p>
+  <p style="font-size:1rem; color:#888; margin-bottom: 24px;">WhatsApp bildirimi gönderildi. Açılmadıysa aşağıdan tekrar gönderebilirsiniz.</p>
+  <a id="waNotifyBtn" href="https://wa.me/905405133913" target="_blank" class="btn" style="background:#25d366; margin-bottom: 16px; display:block; max-width:300px; margin-left:auto; margin-right:auto;">📲 WhatsApp ile Bildir</a>
+  <a href="/" class="btn">Anasayfaya Dön</a>
+  <script>
+    // Sipariş detaylarını localStorage'dan al (varsa)
+    const pendingOrder = localStorage.getItem('manolya_pending_order');
+    if (pendingOrder) {
+      try {
+        const o = JSON.parse(pendingOrder);
+        const itemsList = (o.items || []).map(i => `• ${i.name} x${i.quantity}`).join('\n');
+        const msg = encodeURIComponent(
+          `🌸 YENİ SİPARİŞ!\n👤 Ad: ${o.name}\n📞 Tel: ${o.phone}\n🏠 Adres: ${o.address}\n💬 Not: ${o.note || '-'}\n💳 Ödeme: ${o.paymentMethod}\n💰 Toplam: ${o.total} TL\n\n📦 Ürünler:\n${itemsList}`
+        );
+        document.getElementById('waNotifyBtn').href = `https://wa.me/905405133913?text=${msg}`;
+        localStorage.removeItem('manolya_pending_order');
+      } catch(e) {}
+    }
+  </script>
+</body>
+</html>

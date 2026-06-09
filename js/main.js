@@ -1,5 +1,16 @@
 
+function formatPrice(raw) {
+  if (!raw) return '';
+  const s = String(raw).trim();
+  if (s.includes('TL') || s.includes('₺')) return s;
+  return s + ' TL';
+}
+
 function generateProductDescription(product) {
+  if (product.description && product.description.trim() !== '') {
+    return product.description;
+  }
+  
   const name = product.name.toLowerCase();
   
   if (name.includes('çikolata sepeti') || name.includes('cikolata sepeti')) {
@@ -135,6 +146,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const productModalOverlay = document.getElementById('productModalOverlay');
   const productModalClose = document.getElementById('productModalClose');
   const modalProductImage = document.getElementById('modalProductImage');
+  const modalProductGallery = document.getElementById('modalProductGallery');
   const modalProductBadge = document.getElementById('modalProductBadge');
   const modalProductCategory = document.getElementById('modalProductCategory');
   const modalProductName = document.getElementById('modalProductName');
@@ -172,7 +184,8 @@ document.addEventListener('DOMContentLoaded', () => {
     for (const cat of categories) {
       if (categoryMap[cat]) return categoryMap[cat];
     }
-    return 'Taze Çiçek';
+    // Return custom category name directly
+    return categories[0];
   };
 
   const openProductModal = (product) => {
@@ -180,9 +193,42 @@ document.addEventListener('DOMContentLoaded', () => {
     
     modalProductImage.src = product.image;
     modalProductImage.alt = product.name;
+
+    // Build Gallery
+    if (modalProductGallery) {
+      modalProductGallery.innerHTML = '';
+      const images = [product.image];
+      if (product.image2) images.push(product.image2);
+      if (product.image3) images.push(product.image3);
+
+      if (images.length > 1) {
+        modalProductGallery.style.display = 'flex';
+        images.forEach(imgSrc => {
+          const thumb = document.createElement('img');
+          thumb.src = imgSrc;
+          thumb.className = 'gallery-thumbnail';
+          thumb.style.width = '60px';
+          thumb.style.height = '60px';
+          thumb.style.objectFit = 'cover';
+          thumb.style.borderRadius = '8px';
+          thumb.style.cursor = 'pointer';
+          thumb.style.transition = 'all 0.2s ease';
+          thumb.style.border = imgSrc === product.image ? '2px solid var(--color-primary)' : '2px solid transparent';
+          
+          thumb.onclick = () => {
+            modalProductImage.src = imgSrc;
+            Array.from(modalProductGallery.children).forEach(child => child.style.border = '2px solid transparent');
+            thumb.style.border = '2px solid var(--color-primary)';
+          };
+          modalProductGallery.appendChild(thumb);
+        });
+      } else {
+        modalProductGallery.style.display = 'none';
+      }
+    }
     
     if (product.original_price) {
-      modalProductOriginalPrice.innerText = product.original_price;
+      modalProductOriginalPrice.innerText = formatPrice(product.original_price);
       modalProductOriginalPrice.style.display = 'inline';
       modalProductBadge.style.display = 'block';
     } else {
@@ -190,7 +236,7 @@ document.addEventListener('DOMContentLoaded', () => {
       modalProductBadge.style.display = 'none';
     }
     
-    modalProductPrice.innerText = product.price;
+    modalProductPrice.innerText = formatPrice(product.price);
     modalProductName.innerText = product.name;
     modalProductCategory.innerText = getFriendlyCategory(product.categories);
     
@@ -260,7 +306,7 @@ document.addEventListener('DOMContentLoaded', () => {
       card.setAttribute('data-key', product.key);
       
       const badgeHtml = product.original_price ? `<span class="product-badge">%15 İndirim</span>` : '';
-      const originalPriceHtml = product.original_price ? `<span class="price-original">${product.original_price}</span>` : '';
+      const originalPriceHtml = product.original_price ? `<span class="price-original">${formatPrice(product.original_price)}</span>` : '';
       
       // WhatsApp message formatting
       const messageText = encodeURIComponent(`Merhaba, "${product.name}" çiçeği hakkında bilgi almak ve sipariş vermek istiyorum.`);
@@ -277,16 +323,17 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="product-price">
             <div class="price">
               ${originalPriceHtml}
-              <span class="price-discount">${product.price}</span>
+              <span class="price-discount">${formatPrice(product.price)}</span>
             </div>
-            <a href="${waLink}" target="_blank" class="btn btn-primary btn-sm">Sipariş Ver</a>
+            <button class="btn btn-primary btn-sm sepete-ekle-btn">🛒 Sepete Ekle</button>
           </div>
         </div>
       `;
 
       card.addEventListener('click', (e) => {
-        if (e.target.closest('.btn-primary')) {
-          return; // Allow the WhatsApp link to open directly without showing the modal
+        if (e.target.closest('.sepete-ekle-btn')) {
+          addToCart(product);
+          return;
         }
         openProductModal(product);
       });
@@ -338,16 +385,47 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Category tabs click events
-    categoryTabs.forEach(tab => {
+    categoryTabs.forEach(tab => attachTabListener(tab));
+
+    function attachTabListener(tab) {
+      // Remove existing listener if any by cloning (not strictly needed since we only attach once to new ones, but safe)
       tab.addEventListener('click', () => {
-        categoryTabs.forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.category-tab').forEach(t => t.classList.remove('active'));
         tab.classList.add('active');
         
         currentCategory = tab.getAttribute('data-category');
         displayedCount = itemsPerChunk; // Reset count on category change
         filterAndRender();
       });
-    });
+    }
+
+    const injectDynamicCategories = (products) => {
+      const wrapper = document.querySelector('.category-tabs-wrapper');
+      if (!wrapper) return;
+      
+      const existingCategories = Array.from(document.querySelectorAll('.category-tab')).map(t => t.getAttribute('data-category'));
+      
+      const uniqueCats = new Set();
+      products.forEach(p => {
+        if (p.categories) {
+          p.categories.forEach(c => uniqueCats.add(c));
+        }
+      });
+      
+      uniqueCats.forEach(cat => {
+        if (!existingCategories.includes(cat)) {
+          // It's a new custom category!
+          const btn = document.createElement('button');
+          btn.className = 'category-tab';
+          btn.setAttribute('data-category', cat);
+          // categoryMap might have a friendly name, otherwise use the raw cat string (e.g. "Anneler Günü")
+          btn.innerText = categoryMap[cat] || cat; 
+          
+          wrapper.appendChild(btn);
+          attachTabListener(btn);
+        }
+      });
+    };
 
     // Load more button click event
     loadMoreBtn.addEventListener('click', () => {
@@ -371,6 +449,7 @@ document.addEventListener('DOMContentLoaded', () => {
           const data = await response.json();
           if (data && data.length > 0) {
             activeProducts = data;
+            injectDynamicCategories(activeProducts);
             filterAndRender(); // Update grid dynamically
             console.log("🟢 Live e-commerce products loaded successfully from Supabase!");
           }
@@ -584,6 +663,7 @@ async function handleCheckout(e) {
           delivery_address: address,
           order_note: note,
           payment_method: paymentMethod,
+          total_amount: totalAmount,
           items: cart, // JSONB olarak saklanacak
           referred_by: referredBy || null
         }
@@ -593,10 +673,25 @@ async function handleCheckout(e) {
       console.error("Sipariş kaydedilirken hata oluştu:", error);
       alert('Siparişiniz alınırken bir hata oluştu. Lütfen tekrar deneyin veya WhatsApp üzerinden bizimle iletişime geçin.');
     } else {
-      alert('Siparişiniz alındı! En kısa sürede teyit ve teslimat planı için sizi arayacağız. Teşekkürler.');
+      // Mağaza sahibine WhatsApp bildirimi gönder
+      const ownerPhone = '905405133913';
+      const itemsList = cart.map(i => `• ${i.name} x${i.quantity}`).join('\n');
+      const orderMsg = encodeURIComponent(
+        `🌸 YENİ SİPARİŞ!\n👤 Ad: ${name}\n📞 Tel: ${phone}\n🏠 Adres: ${address}\n💬 Not: ${note || '-'}\n💳 Ödeme: ${paymentMethod}\n💰 Toplam: ${totalAmount.toFixed(2)} TL\n\n📦 Ürünler:\n${itemsList}`
+      );
+      window.open(`https://wa.me/${ownerPhone}?text=${orderMsg}`, '_blank');
+
+      // success.html'de fallback link için detayları sakla
+      localStorage.setItem('manolya_pending_order', JSON.stringify({
+        name, phone, address, note, paymentMethod,
+        total: totalAmount.toFixed(2),
+        items: cart
+      }));
+
       cart = [];
       saveCart();
       closeCheckoutModal();
+      window.location.href = '/success.html';
     }
   } catch (err) {
     console.error("Beklenmeyen hata:", err);
