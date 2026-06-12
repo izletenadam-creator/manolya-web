@@ -1,4 +1,10 @@
 
+// Global Supabase client — sipariş, Memory Wall ve diğer tüm DB işlemleri bunu kullanır.
+// CDN script'i index.html'de main.js'den önce yüklenir; guard yine de güvence.
+const supabaseClient = (typeof supabase !== 'undefined')
+  ? supabase.createClient("https://hhclwnsrcubmetwwlbmd.supabase.co", "sb_publishable_78TsbaEv3CMnD8e6Cv0M8w__C8kXjmb")
+  : null;
+
 function formatPrice(raw) {
   if (!raw) return '';
   const s = String(raw).trim();
@@ -646,15 +652,8 @@ async function handleCheckout(e) {
   // Referans kodunu (varsa) al
   const referredBy = localStorage.getItem('manolya_referred_by');
   
-  // Supabase ayarları
-  const SB_URL = "https://hhclwnsrcubmetwwlbmd.supabase.co";
-  const SB_KEY = "sb_publishable_78TsbaEv3CMnD8e6Cv0M8w__C8kXjmb";
-  
   try {
-    // Supabase client oluştur
-    const supabaseClient = supabase.createClient(SB_URL, SB_KEY);
-    
-    // Siparişi veritabanına kaydet
+    // Siparişi veritabanına kaydet (global supabaseClient)
     const { data, error } = await supabaseClient
       .from('manolya_orders')
       .insert([
