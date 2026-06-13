@@ -1389,7 +1389,10 @@ create policy "Admin_manage_campaigns" on manolya_campaigns for all to authentic
           </div>
 
           <div class="form-group">
-            <label for="formDescription">Ürün Açıklaması</label>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px;">
+              <label for="formDescription" style="margin-bottom: 0;">Ürün Açıklaması</label>
+              <button type="button" class="btn-outline btn-sm" onclick="generateAIDescription()" style="padding: 4px 10px; font-size: 0.75rem; border-color: var(--color-primary); color: var(--color-primary); background: transparent; cursor: pointer; border-radius: 4px;">✨ Yapay Zeka ile Üret</button>
+            </div>
             <textarea class="form-control" id="formDescription" rows="3" placeholder="Örn: 1. sınıf ekvator gülleriyle hazırlanmış, cam vazoda şık aranjman..."></textarea>
           </div>
 
@@ -1959,14 +1962,29 @@ create policy "Admin_manage_campaigns" on manolya_campaigns for all to authentic
           reader.readAsDataURL(file);
         });
 
-        // Upload Helper
-        const uploadFile = async (fileInput, index, valueId) => {
+        // SEO dostu dosya adı: Türkçe karakterleri ASCII'ye çevir, tireli slug üret
+        const slugify = (str) => {
+          const map = { 'ç':'c','Ç':'c','ğ':'g','Ğ':'g','ı':'i','I':'i','İ':'i','ö':'o','Ö':'o','ş':'s','Ş':'s','ü':'u','Ü':'u' };
+          return (str || 'urun')
+            .replace(/[çÇğĞıIİöÖşŞüÜ]/g, m => map[m] || m)
+            .toLowerCase()
+            .replace(/[^a-z0-9]+/g, '-')
+            .replace(/^-+|-+$/g, '')
+            .substring(0, 50)
+            .replace(/-+$/g, '') || 'urun';
+        };
+        const imageSlug = slugify(name);
+
+        // Upload Helper — dosya adı çiçeğin adından (SEO), benzersizlik için kısa son ek
+        const uploadFile = async (fileInput, index, valueId, slug) => {
           let currentVal = document.getElementById(valueId).value.trim();
 
           if (fileInput.files && fileInput.files[index]) {
             const file = fileInput.files[index];
             const compressed = await compressImage(file);
-            const fileName = `${Date.now()}-${Math.random().toString(36).substring(7)}.jpg`;
+            const rand = Math.random().toString(36).substring(2, 7);
+            const suffix = index > 0 ? `-${index + 1}` : '';
+            const fileName = `${slug}${suffix}-${rand}.jpg`;
 
             const { error: uploadError } = await supabaseClient
               .storage
@@ -1986,9 +2004,9 @@ create policy "Admin_manage_campaigns" on manolya_campaigns for all to authentic
         };
 
         const fileInput = document.getElementById("formImageFile");
-        let image = await uploadFile(fileInput, 0, "formImage");
-        let image2 = await uploadFile(fileInput, 1, "formImage2");
-        let image3 = await uploadFile(fileInput, 2, "formImage3");
+        let image = await uploadFile(fileInput, 0, "formImage", imageSlug);
+        let image2 = await uploadFile(fileInput, 1, "formImage2", imageSlug);
+        let image3 = await uploadFile(fileInput, 2, "formImage3", imageSlug);
 
         if (!image) {
           image = "https://manolyacicekcilik.com/images/hero-flowers.png";
@@ -2042,6 +2060,30 @@ create policy "Admin_manage_campaigns" on manolya_campaigns for all to authentic
         console.error("Delete failed:", err);
         showToast("Çiçek silinemedi!", "error");
       }
+    }
+
+    function generateAIDescription() {
+      const name = document.getElementById("formName").value.trim();
+      const categories = Array.from(document.querySelectorAll("input[name='categories']:checked")).map(cb => cb.parentElement.textContent.trim());
+      const descInput = document.getElementById("formDescription");
+      
+      if (!name) {
+        showToast("Önce bir ürün adı girmelisiniz!", "error");
+        return;
+      }
+      
+      const categoryText = categories.length > 0 ? categories.join(", ").toLowerCase() + " aranjmanı olarak " : "";
+      
+      const templates = [
+        `Sevdiklerinize unutulmaz bir sürpriz yapmak için tasarlanmış harika bir tasarım. ${categoryText}özenle hazırlanan bu şık çiçek, en taze yapraklarla sizin için tasarlandı. Zarafetiyle her özel anı taçlandırmak için mükemmel bir tercih.`,
+        `${name} ile sevdiklerinize duygularınızı en saf haliyle ifade edin. Usta ellerden çıkan bu zarif tasarım, ${categoryText}bulunduğu ortama anında taze bir enerji katar. Uzun ömürlü ve taze kalarak günlerce tebessüm yaratır.`,
+        `Göz kamaştıran renkleri ve mis kokusuyla ${name}, kalpleri ısıtmak için tasarlandı. İster doğum günü, ister yıl dönümü olsun, en değerli anlarınıza şahitlik edecek.`,
+        `Modern ve zarif çizgilerin doğanın en güzel renkleriyle buluştuğu eşsiz bir kompozisyon. ${name}, sadece bir çiçek değil, aynı zamanda duygularınızın en şık yansımasıdır.`
+      ];
+      
+      const randomTemplate = templates[Math.floor(Math.random() * templates.length)];
+      descInput.value = randomTemplate;
+      showToast("✨ Açıklama başarıyla üretildi!", "success");
     }
 
     // ==================== SETTINGS FORM SUBMIT ====================
