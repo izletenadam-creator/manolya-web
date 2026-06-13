@@ -1805,32 +1805,66 @@ p {
   display: block;
 }
 
-/* Çoklu fotoğraf galerisi — ana resmin alt-ortasında yüzen şerit */
+/* Resim + galeri dikey yığın (sol sütun) */
+.product-modal-media {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+/* Çoklu fotoğraf galerisi — ana resmin ALTINDA ayrı şerit (içeriği kapatmaz) */
 .product-modal-gallery {
-  position: absolute;
-  bottom: 12px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 5;
   gap: 8px;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 7px 9px;
-  background: rgba(255, 255, 255, 0.92);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  border-radius: 14px;
-  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.15);
-  max-width: 88%;
+  align-items: center;
+  padding: 10px;
+  background: #fbfbfb;
+  border-top: 1px solid #f0f0f0;
 }
 /* ID selector — mobildeki .product-modal-image img !important kuralını kesin ezer */
 #modalProductGallery img {
-  width: 56px !important;
-  height: 56px !important;
+  width: 60px !important;
+  height: 60px !important;
   object-fit: cover !important;
   padding: 0 !important;
   cursor: pointer !important;
   border-radius: 8px;
+}
+
+/* Galeri ileri/geri navigasyon okları — ana resmin sol/sağ kenarında */
+.gallery-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 6;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.18);
+  color: #2d2d2d;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+.gallery-nav svg { width: 22px; height: 22px; }
+.gallery-nav:hover { background: #fff; }
+.gallery-prev { left: 12px; }
+.gallery-next { right: 12px; }
+.gallery-prev:hover { transform: translateY(-50%) scale(1.08); }
+.gallery-next:hover { transform: translateY(-50%) scale(1.08); }
+@media (max-width: 768px) {
+  .gallery-nav { width: 36px; height: 36px; }
+  .gallery-nav svg { width: 18px; height: 18px; }
+  .gallery-prev { left: 8px; }
+  .gallery-next { right: 8px; }
 }
 
 .product-modal-details {

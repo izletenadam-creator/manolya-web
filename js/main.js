@@ -200,36 +200,47 @@ document.addEventListener('DOMContentLoaded', () => {
     modalProductImage.src = product.image;
     modalProductImage.alt = product.name;
 
-    // Build Gallery
+    // Build Gallery + ileri/geri navigasyon
     if (modalProductGallery) {
       modalProductGallery.innerHTML = '';
       const images = [product.image];
       if (product.image2) images.push(product.image2);
       if (product.image3) images.push(product.image3);
 
+      const prevBtn = document.getElementById('galleryPrev');
+      const nextBtn = document.getElementById('galleryNext');
+      let currentIndex = 0;
+
+      const setActive = (idx) => {
+        currentIndex = (idx + images.length) % images.length;
+        modalProductImage.src = images[currentIndex];
+        Array.from(modalProductGallery.children).forEach((child, i) => {
+          child.style.border = i === currentIndex ? '2px solid var(--color-primary)' : '2px solid transparent';
+        });
+      };
+
       if (images.length > 1) {
         modalProductGallery.style.display = 'flex';
-        images.forEach(imgSrc => {
+        if (prevBtn) prevBtn.style.display = 'flex';
+        if (nextBtn) nextBtn.style.display = 'flex';
+
+        images.forEach((imgSrc, i) => {
           const thumb = document.createElement('img');
           thumb.src = imgSrc;
           thumb.className = 'gallery-thumbnail';
-          thumb.style.width = '60px';
-          thumb.style.height = '60px';
-          thumb.style.objectFit = 'cover';
-          thumb.style.borderRadius = '8px';
-          thumb.style.cursor = 'pointer';
+          thumb.style.border = '2px solid transparent';
           thumb.style.transition = 'all 0.2s ease';
-          thumb.style.border = imgSrc === product.image ? '2px solid var(--color-primary)' : '2px solid transparent';
-          
-          thumb.onclick = () => {
-            modalProductImage.src = imgSrc;
-            Array.from(modalProductGallery.children).forEach(child => child.style.border = '2px solid transparent');
-            thumb.style.border = '2px solid var(--color-primary)';
-          };
+          thumb.onclick = () => setActive(i);
           modalProductGallery.appendChild(thumb);
         });
+
+        if (prevBtn) prevBtn.onclick = () => setActive(currentIndex - 1);
+        if (nextBtn) nextBtn.onclick = () => setActive(currentIndex + 1);
+        setActive(0);
       } else {
         modalProductGallery.style.display = 'none';
+        if (prevBtn) prevBtn.style.display = 'none';
+        if (nextBtn) nextBtn.style.display = 'none';
       }
     }
     

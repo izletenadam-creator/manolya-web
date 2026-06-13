@@ -30,7 +30,7 @@
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌸</text></svg>">
   
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="css/style.css?v=3">
+  <link rel="stylesheet" href="css/style.css?v=4">
 
   <!-- Schema.org Graph Structured Data (GEO / AI & Search Engine Optimization) -->
   <script type="application/ld+json">
@@ -911,9 +911,17 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
       </button>
       <div class="product-modal-content">
-        <div class="product-modal-image">
-          <img id="modalProductImage" src="" alt="">
-          <span class="product-badge" id="modalProductBadge" style="display: none;">%15 İndirim</span>
+        <div class="product-modal-media">
+          <div class="product-modal-image">
+            <button class="gallery-nav gallery-prev" id="galleryPrev" aria-label="Önceki fotoğraf" style="display: none;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            </button>
+            <img id="modalProductImage" src="" alt="">
+            <button class="gallery-nav gallery-next" id="galleryNext" aria-label="Sonraki fotoğraf" style="display: none;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </button>
+            <span class="product-badge" id="modalProductBadge" style="display: none;">%15 İndirim</span>
+          </div>
           <div class="product-modal-gallery" id="modalProductGallery" style="display: none;"></div>
         </div>
         <div class="product-modal-details">
@@ -960,8 +968,8 @@
 
   <!-- ==================== JavaScript ==================== -->
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script src="js/products.js"></script>
-  <script src="js/main.js"></script>
+    <script src="js/products.js?v=4"></script>
+  <script src="js/main.js?v=4"></script>
 
     <!-- ==================== FULLSCREEN IMAGE MODAL ==================== -->
     <div class="fullscreen-image-overlay" id="fullscreenImageOverlay" onclick="closeFullscreenImage()">
