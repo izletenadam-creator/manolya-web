@@ -407,6 +407,13 @@ p {
   padding: var(--space-3xl) 0;
 }
 
+.hero-badges-wrapper {
+  display: flex;
+  gap: 12px;
+  margin-bottom: var(--space-xl);
+  flex-wrap: wrap;
+}
+
 .hero-badge {
   display: inline-flex;
   align-items: center;
@@ -417,8 +424,25 @@ p {
   border-radius: var(--radius-full);
   font-size: 0.85rem;
   color: var(--color-primary);
-  margin-bottom: var(--space-xl);
   animation: fadeInUp 0.8s var(--ease-out);
+  transition: all var(--transition-fast);
+}
+
+.hero-badge.google:hover {
+  background: rgba(196, 114, 127, 0.15);
+  transform: translateY(-2px);
+}
+
+.hero-badge.instagram {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  color: white;
+  border: none;
+  box-shadow: 0 4px 15px rgba(220, 39, 67, 0.2);
+}
+
+.hero-badge.instagram:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(220, 39, 67, 0.3);
 }
 
 .hero-badge svg {
@@ -1779,6 +1803,34 @@ p {
   height: 100%;
   object-fit: cover;
   display: block;
+}
+
+/* Çoklu fotoğraf galerisi — ana resmin alt-ortasında yüzen şerit */
+.product-modal-gallery {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 7px 9px;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 14px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.15);
+  max-width: 88%;
+}
+/* ID selector — mobildeki .product-modal-image img !important kuralını kesin ezer */
+#modalProductGallery img {
+  width: 56px !important;
+  height: 56px !important;
+  object-fit: cover !important;
+  padding: 0 !important;
+  cursor: pointer !important;
+  border-radius: 8px;
 }
 
 .product-modal-details {

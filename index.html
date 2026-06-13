@@ -3,11 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- PostHog Analytics -->
-  <script>
-    !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys onSessionId".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
-    posthog.init('phc_dummy_project_key_to_be_replaced', {api_host: 'https://eu.posthog.com'})
-  </script>
 
   
   <!-- SEO Meta Tags -->
@@ -35,7 +30,7 @@
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌸</text></svg>">
   
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="css/style.css?v=2">
+  <link rel="stylesheet" href="css/style.css?v=3">
 
   <!-- Schema.org Graph Structured Data (GEO / AI & Search Engine Optimization) -->
   <script type="application/ld+json">
@@ -919,7 +914,7 @@
         <div class="product-modal-image">
           <img id="modalProductImage" src="" alt="">
           <span class="product-badge" id="modalProductBadge" style="display: none;">%15 İndirim</span>
-          <div class="product-modal-gallery" id="modalProductGallery" style="display: none; margin-top: 15px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;"></div>
+          <div class="product-modal-gallery" id="modalProductGallery" style="display: none;"></div>
         </div>
         <div class="product-modal-details">
           <span class="product-modal-category" id="modalProductCategory">Kategori</span>
@@ -982,11 +977,11 @@
         <h3 style="margin-top:0; color:#6b21a8;">Bir Anı Bırak ✨</h3>
         <p style="font-size:0.9rem; color:#666; margin-bottom: 20px;">Mesajınız onaylandıktan sonra anı köşemizde yayınlanacaktır.</p>
         <div class="form-group">
-          <label style="font-weight: 600; color: #444;">İsim veya Rumuz</label>
+          <label for="memoryAuthor" style="font-weight: 600; color: #444;">İsim veya Rumuz</label>
           <input type="text" id="memoryAuthor" class="form-control" placeholder="Örn: Ayşe & Ali">
         </div>
         <div class="form-group">
-          <label style="font-weight: 600; color: #444;">Mesajınız</label>
+          <label for="memoryMessage" style="font-weight: 600; color: #444;">Mesajınız</label>
           <textarea id="memoryMessage" class="form-control" rows="4" placeholder="Siparişinizle veya sevdiklerinizle ilgili güzel bir anı..."></textarea>
         </div>
         <button class="btn btn-primary" onclick="submitMemory()" style="width: 100%; background: linear-gradient(90deg, #9d4edd, #c084fc); border: none;">Gönder 💌</button>
@@ -1027,20 +1022,20 @@
         <form id="checkoutForm" onsubmit="handleCheckout(event)">
           <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
             <div class="form-group">
-              <label>Ad Soyad</label>
+              <label for="checkoutName">Ad Soyad</label>
               <input type="text" class="form-control" id="checkoutName" required>
             </div>
             <div class="form-group">
-              <label>Telefon</label>
+              <label for="checkoutPhone">Telefon</label>
               <input type="tel" class="form-control" id="checkoutPhone" required>
             </div>
           </div>
           <div class="form-group">
-            <label>Teslimat Adresi</label>
+            <label for="checkoutAddress">Teslimat Adresi</label>
             <textarea class="form-control" id="checkoutAddress" rows="3" required></textarea>
           </div>
           <div class="form-group">
-            <label>Sipari Notu (stee bal)</label>
+            <label for="checkoutNote">Sipariş Notu (İsteğe bağlı)</label>
             <textarea class="form-control" id="checkoutNote" rows="2"></textarea>
               <!-- Sihirli Not Olusturucu Butonu -->
               <div style="margin-top: 8px;">
@@ -1053,7 +1048,7 @@
               <div id="magicNoteUI" style="display: none; background: #faf5ff; border: 1px solid #e9d5ff; border-radius: 8px; padding: 15px; margin-top: 10px;">
                 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 10px;">
                   <div>
-                    <label style="font-size: 0.8rem; color: #6b21a8; font-weight: 600;">Kime?</label>
+                    <label for="magicNoteRecipient" style="font-size: 0.8rem; color: #6b21a8; font-weight: 600;">Kime?</label>
                     <select id="magicNoteRecipient" class="form-control" style="border-color: #d8b4fe; padding: 6px; font-size: 0.85rem;">
                       <option value="sevgili">Sevgili/Eş ❤️</option>
                       <option value="anne">Anne 👑</option>
